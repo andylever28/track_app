@@ -13,10 +13,6 @@ export class AppComponent {
 	teams;
  	
 	ngOnInit(): void {
-		this.http.get('http://localhost:3000/teams.json').subscribe(
-			data => {
-				console.log(data);
-				this.teams = data;
-			})
+
 	}
 }
