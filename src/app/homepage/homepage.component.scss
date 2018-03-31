@@ -1,0 +1,17 @@
+.homepage-title-container {
+    padding: 1em;
+    text-align: center;
+    h1 {
+        font-size: 2em;
+        margin: 20px 0;
+    }
+}
+
+.homepage-button-container {
+    padding: .5em;
+    .btn-wrapper {
+        .btn {
+            width: 100%;
+        }
+    }
+}

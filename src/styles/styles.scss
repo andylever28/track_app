@@ -1,4 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import './variables';
-@import './mixins';
+@import 'variables';
+@import 'mixins';
+
+* {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    background-color: $primary-color;
+    .navbar-brand {
+        color: $white;
+    }
+}
+.btn-wrapper {
+    .primary-btn {
+        background-color: $site-black;
+        color: $white;
+    }
+}
